@@ -25,5 +25,5 @@
     <color name="theme_accent_light">#df78ef</color>
 
     <color name="photo_placeholder">#ccc</color>
-    <color name="ltgray">#ffe0e0e0</color>
+    <color name="list_background">#dddddd</color>
 </resources>
