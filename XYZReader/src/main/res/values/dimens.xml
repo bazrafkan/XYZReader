@@ -27,4 +27,7 @@
     <dimen name="list_item_subtitle_layout_marginHorizontal">8dp</dimen>
     <dimen name="list_item_subtitle_layout_marginTop">8dp</dimen>
     <dimen name="list_item_subtitle_layout_marginBottom">16dp</dimen>
+    <dimen name="detail_fragment_body_padding">15dp</dimen>
+    <dimen name="detail_fragment_title_expandedTitleMarginStart">56dp</dimen>
+    <dimen name="detail_fragment_toolbar_layout_marginTop">20dp</dimen>
 </resources>

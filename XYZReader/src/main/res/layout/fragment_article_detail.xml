@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:contentScrim="?attr/colorPrimary"
-            app:expandedTitleMarginStart="56dp"
+            app:expandedTitleMarginStart="@dimen/detail_fragment_title_expandedTitleMarginStart"
             app:layout_scrollFlags="scroll|exitUntilCollapsed|snap">
 
             <ImageView
@@ -31,7 +31,7 @@
                 android:id="@+id/anim_toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?actionBarSize"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="@dimen/detail_fragment_toolbar_layout_marginTop"
                 app:layout_collapseMode="pin"
                 app:popupTheme="@style/Theme.AppCompat.Light" />
         </com.google.android.material.appbar.CollapsingToolbarLayout>
@@ -43,7 +43,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal|top"
         android:background="@android:color/white"
-        android:padding="15dp"
+        android:padding="@dimen/detail_fragment_body_padding"
         app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
