@@ -11,5 +11,6 @@
     <string name="photo">Photo</string>
     <string name="back">Back</string>
     <string name="share">Share</string>
+    <string name="image">Image</string>
 
 </resources>
